@@ -97,7 +97,7 @@ $result = "";
 foreach ($users as $user) {
     $userId = $user['id'];
     $name = $user['name'];
-    $result = '<a href=\"/show_user.php?id=' . $userId . '\'>' . $name . '</a></br>' . $result;
+    $result = '<a href="/show_user.php?id=' . $userId . '\'>' . $name . '</a></br>' . $result;
 }
 echo $result;
 
